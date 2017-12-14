@@ -1,0 +1,63 @@
+    body{
+      text-align: center;
+      margin: 0 auto;
+      padding: 0;
+      font-size: 0.48rem;
+    }
+    .close{
+
+    }
+    .close img{
+      width: 59px;
+      height: 59px;
+      margin-right: 850px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    .name{
+      width: 9.7rem;
+      height: 1.16rem;
+      border:0px;
+      border-bottom: 1px solid rgb(93,91,91);
+      font-size: 36px;
+    }
+    .password{
+      margin-top: 15px;
+      width: 9.7rem;
+      height: 1.16rem;
+      border: 0px;
+       border-bottom: 1px solid rgb(93,91,91);
+       font-size: 36px;
+    }
+    .forget{
+      display: inline-block;
+      float: right;
+      color: rgb(93,91,91);
+      font-size: 30px;
+      padding-top: 33px;
+      padding-right: 50px;
+    }
+    .load{
+      width: 9.7rem;
+      height: 1.16rem;
+      border:0px;
+      background-color: rgb(222,61,150);
+      font-size: 36px;
+      color: white;
+      margin-top: 100px;
+    }
+    #tel{
+      margin-top: 72px;
+      width: 420px;
+      height: 112px;
+      border-radius: 8px;
+      border: 5px solid rgb(222,61,150);
+      background-color: white;
+      color: rgb(222,61,150);
+      font-size: 40px;
+    }
+    .bottom{
+      margin-top: 330px;
+       color: rgb(93,91,91);
+      font-size: 36px;
+    }

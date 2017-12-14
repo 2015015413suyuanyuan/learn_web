@@ -1,0 +1,110 @@
+
+    *{
+      margin: 0 auto;
+      text-align: center;
+    }
+    #header{
+      height: 251px;
+      width: 10.8rem;
+    }
+    .list{
+      width: 72px;
+      height: 57px;
+      display: inline-block;
+      background-image: url(../img/list.png);
+      background-repeat: no-repeat;
+      position: fixed;
+      left: 33px;
+      top: 34px;
+    }
+    .search{
+          display: inline-block;
+          width: 53px;
+          height: 53px;
+          position: fixed;
+          right: 40px;
+          top: 34px;
+    }
+    #search{
+      height: 132px;
+      width: 10.8rem;
+      background-color: white;
+    }
+    #navbar{
+      position: fixed;
+      top: 132px;
+      right: 0;
+      height: 119px;
+      width: 10.8rem;
+
+    }
+    ul,li{
+            list-style: none;
+    }
+    .content{
+            padding: 0;
+    }
+      .swiper-container {
+      width: 100%;
+      height: 686px;
+
+    }
+    .swiper-slide {
+      text-align: center;
+      width: 100%;
+      height: 686px;
+      font-size: 18px;
+      background: #fff;
+
+    }
+    #content{
+      width: 10.8rem;
+      height:auto;
+
+    }
+    .item{
+      margin-left: -90px;
+      height: 746px;
+      width: 10.8rem;
+      margin-bottom: 420px;
+
+    }
+    .item p{
+      font-size: 44px;
+      margin-top: 48px;
+    }
+    .item img{
+    	width: 100%;
+    }
+    
+    #list{
+      width: 10.8rem;
+      height: 5.8rem;
+    
+    }
+    #goods{
+      width: 270px;
+      height: 168px;
+      float: left;
+      padding: 5px;
+    }
+    #goods p{
+      font-size: 44px;
+    }
+
+    .footer{
+            width: 4.49rem;
+          height: 1.28rem;
+          position: fixed;
+          left: 17px;
+          bottom: 17px;
+          background-color: rgba(57,63,74,0.8);
+        }
+        .footer img{
+         width: 0.66rem;
+        height: 0.6rem;
+        float: left;
+        margin-top: 30px;
+        margin-left: 66px;        
+        }
+

@@ -1,0 +1,94 @@
+
+    .nav1{
+      height: 133px;
+      width: 100%;
+    }
+    .message{
+      margin:33px;
+      float: right;
+     width: 68px;
+     height: 68px;
+      background-image: url(../img/message1.png);
+      background-repeat: no-repeat;
+      display: inline-block;
+    }
+    .set{
+      margin:33px;
+       float: right;
+      width: 68px;
+      height: 68px;
+      background-image: url(../img/set1.png);
+      background-repeat: no-repeat;
+      display: inline-block;
+    }
+    .close{
+       margin:33px;
+       float: right;
+      width: 68px;
+      height: 68px;
+      background-image: url(../img/close1.png);
+      background-repeat: no-repeat;
+      display: inline-block;
+    }
+    .zhuce2{
+      padding: 10px;
+    }
+
+    .item{
+      padding-top: 25px;
+      padding-left: 150px;
+      float: left;
+    }
+
+    #nav3 a{
+      height: 80px;
+      line-height: 80px;
+      font-size: 40px;
+      font-weight: normal;
+      text-decoration: none;
+    }
+
+    .ui-btn-icon-left:after, .ui-btn-icon-right:after, .ui-btn-icon-top:after, .ui-btn-icon-bottom:after, .ui-btn-icon-notext:after {
+          margin-right: 60px;
+          width: 30px;
+          height: 40px;
+    }
+   .ui-icon-carat-r:after{
+    background-image: url(../img/left.png);
+   }
+   .ui-btn-icon-left:after, .ui-btn-icon-right:after, .ui-btn-icon-top:after, .ui-btn-icon-bottom:after, .ui-btn-icon-notext:after{
+    background-color: white;
+   }
+    .nav2{
+      height: auto;
+      font-size: 51px;
+      padding: 0;
+      padding-bottom: 50px;
+      color: rgb(110,109,114);
+      font-weight: lighter;
+      font-family: monospace;
+    }   
+    .touxiang{
+      width:130px;
+      height:130px;
+      float: left;
+       margin-right: 50px;
+       margin-left: 40px;
+    }
+    .xinxi{
+    width: 60%;
+    height: 50px;
+    display: inline-block
+    }
+    .huiyuan{
+      width: 60%;
+      display: inline-block;
+      font-size: 45px;
+    }
+    .huiyuan img{
+      padding: 5px;
+    }
+    .username{
+      color: white;
+      padding-left: 4px;
+    }

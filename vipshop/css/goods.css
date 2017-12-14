@@ -1,0 +1,76 @@
+ *{
+      margin: 0 auto;
+      text-align: center;
+    }
+  
+    #goods{
+            float: left;
+            width: 490px;
+            height: 820px;
+            text-align: center;
+            background-color: white;
+            color: rgb(88,92,100);
+            margin-top: 15px;
+            margin-left: 20px;
+        }
+        #goods img{
+            width:100%;
+            height: 653px;
+            display: inline-block;
+            margin-top: 4px;
+
+        }
+        #goods .goodsName{
+            width: 100%;
+            height: 40px;
+            margin-top:30px;
+            display: block;
+             text-align: left;
+            font-size: 38px;
+           margin-left: 4px;
+
+        }
+         #goods .price{
+            width: 100%;
+            height: 20px;
+            text-align: left;
+            font-size: 30px;
+            display:block;
+        }
+        #className{
+          position: fixed;
+          top: 0;
+          right: 0;
+          background-color: white;
+          width: 1080px;
+          height: 143px;
+          font-size: 44px;
+          text-align: center;
+          line-height: 143px;
+          border-bottom: 1.5px solid rgb(222,61,150);
+        }
+        #className img{
+
+          position: fixed;
+          top: 31px;
+          left: 46px;
+        }
+        .footer{
+          width: 449px;
+          height: 128px;
+          position: fixed;
+          left: 17px;
+          bottom: 22px;
+          background-color: rgba(57,63,74,0.8);
+        }
+        .footer img{
+              width: 66px;
+              height: 60px;
+              float: left;
+              margin-top: 30px;
+              margin-left: 66px;        
+            }
+            #zhong{
+            	width: 1080px;
+            	padding-left: 25px;
+            }

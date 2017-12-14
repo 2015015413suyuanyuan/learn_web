@@ -1,0 +1,58 @@
+    *{
+       text-align: center;
+        margin:0 auto;
+    }
+        #search{
+            width: 10.8rem;
+            height: 1.9rem;
+            border-bottom: 1px solid rgb(243,244,245);
+        }
+        .right{
+            display:block;
+            float: left;
+            width: 0.42rem;
+            height: 0.63rem;
+            margin-top: 20px;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+        .search{
+            display: inline-block;
+            width: 7.93rem;
+            height:0.96rem;
+            text-align: left;
+            background-color: rgb(243,244,245);
+            color: rgb(153,153,153);
+            border: 1px solid rgb(243,244,245);
+            border-radius: 2px;
+            padding-left: 8px;
+        }
+        .btn{
+            display: inline-block;
+            width: 1.29rem;
+            height: 0.932rem;
+            border: 0px;
+            padding: 0px;
+            background-color: white;
+            margin-left: -10px;
+        }
+        #content{
+            width: 10.8rem;
+            height: auto;
+            text-align: center;
+        }
+        #item{
+                margin-left: 18px;
+                width: 4.55rem;
+                height: 9.57rem;
+                float: left;
+                margin-top: 20px;
+        }
+        #item img{
+            width: 4rem;
+            height: 7rem;
+        }
+        #item p{
+        	text-align: left;
+            font-size: 15px;
+        }

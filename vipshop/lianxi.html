@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>商品分类</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css" />
+    <script type="text/javascript" src="js/jQuery2.1.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile-1.4.5.js"></script>
+    <link rel="stylesheet" href="css/lianxi.css">
+</head>
+<body>
+    <div data-role="page" id="pageone"> 
+        <div data-role="header" data-theme='f' style="height:50px;"> 
+            <a href="zhuye.html" data-role='none' rel="external"> <img src="img/right.png" alt="" class="right"></a>
+            <h1 style="font-weight:normal;">商品分类</h1>
+         
+        </div>
+        <div data-role="content" class="content" style="background-color: rgb(238,240,243);">
+            
+            <nav>
+                <div class="owrapper wrapper01" id="retr">
+                    <div class="scroller">
+                        <ul class="clearfix">
+                            <li class="cur">好友</li>
+                            <li>群</li>
+                            <li>多人聊天</li>
+                            <li>设备</li>
+                            <li>通讯录</li>
+                            <li>公众号</li>
+                            <li>群</li>
+                            <li>多人聊天</li>
+                            <li>设备</li>
+                            <li>通讯录</li>
+                            <li>公众号</li>
+                            <li>通讯录</li>
+                            <li>公众号</li>
+                        </ul>                  
+                    </div>
+                </div>      
+            </nav>
+            
+           <div id="goods">
+                <img src="" alt="">
+                <span class='price'></span>
+                <span class='goodsName'></span>   
+            </div>
+            <div id="goods">
+                <img src="" alt="">
+                <span class='price'></span>
+                <span class='goodsName'></span>   
+            </div>
+            <div id="goods">
+                <img src="" alt="">
+                <span class='price'></span>
+                <span class='goodsName'></span>   
+            </div>
+            <div id="goods">
+                <img src="" alt="">
+                <span class='price'></span>
+                <span class='goodsName'></span>   
+            </div>
+            <div id="goods">
+                <img src="" alt="">
+                <span class='price'></span>
+                <span class='goodsName'></span>   
+            </div>
+            <div id="goods">
+                <img src="" alt="">
+                <span class='price'></span>
+                <span class='goodsName'></span>   
+            </div>
+            <div id="goods">
+                <img src="" alt="">
+                <span class='price'></span>
+                <span class='goodsName'></span>   
+            </div>
+            <div id="goods">
+                <img src="" alt="">
+                <span class='price'></span>
+                <span class='goodsName'></span>   
+            </div>
+            <div id="goods">
+                <img src="" alt="">
+                <span class='price'></span>
+                <span class='goodsName'></span>   
+            </div>
+            <div id="goods">
+                <img src="" alt="">
+                <span class='price'></span>
+                <span class='goodsName'></span>   
+            </div>
+
+        </div>
+        
+        <div class="footer"> 
+              <img src="img/ren.png" alt="" class="ren">
+              <img src="img/xin.png" alt="">
+              <img src="img/che.png" alt="" class="che">
+    </div>
+
+        </div> 
+
+</body>
+<script>
+    $('.ren').click(function(){
+        var username = localStorage['username'];
+        if(username)
+        {
+            $(location).prop('href','geren.html');
+        }
+        else{
+            $(location).prop('href','load.html');
+        }
+    })
+</script>
+<script src="js/iscroll.js"></script>
+<script src="js/navbarscroll.js"></script>
+<script src="js/lianxi.js"></script>
+<script>
+    $(function(){
+        $('.owrapper').navbarscroll();
+    })
+
+</script>
+</html>

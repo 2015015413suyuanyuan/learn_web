@@ -1,0 +1,67 @@
+
+    .nav1{
+      height: 133px;
+      width: 100%;
+    }
+    .message{
+      margin:33px;
+      float: right;
+     width: 68px;
+     height: 68px;
+      background-image: url(../img/message.png);
+      background-repeat: no-repeat;
+      display: inline-block;
+    }
+    .set{
+      margin:33px;
+       float: right;
+      width: 68px;
+      height: 68px;
+      background-image: url(../img/set.png);
+      background-repeat: no-repeat;
+      display: inline-block;
+    }
+    .close{
+       margin:33px;
+       float: right;
+      width: 68px;
+      height: 68px;
+      background-image: url(../img/close.png);
+      background-repeat: no-repeat;
+      display: inline-block;
+    }
+    .nav2{
+      height: 270px;
+      font-size: 40px;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+    }
+    .zhuce{
+      display: inline-block;
+      padding-top: 90px;
+      padding-left: 360px;
+    }
+    .zhuce2{
+      padding: 10px;
+    }
+
+    .item{
+      padding-top: 25px;
+      padding-left: 150px;
+      float: left;
+    }
+
+    #nav3 a{
+      height: 80px;
+      line-height: 80px;
+      font-size: 40px;
+      font-weight: normal;
+      text-decoration: none;
+    }
+
+    .ui-btn-icon-left:after, .ui-btn-icon-right:after, .ui-btn-icon-top:after, .ui-btn-icon-bottom:after, .ui-btn-icon-notext:after {
+      margin-right: 30px;
+      width: 30px;
+      height: 30px;
+    }
